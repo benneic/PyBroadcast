@@ -1,19 +1,19 @@
 # PyRoamz
 
-A Python wrapper for the Roamz internal data API.
+A Python wrapper for the Roamz internal broadcast API.
 
 ## Usage
 
-Set the environment variable `PYROAMZ_BASE_URL`, check .env.sample for details.
+Set the environment variable `PYBROADCAST_BASE_URL`, check .env.sample for details.
 
-Create a Roamz instance:
+Create a PyBroadcast instance:
 
-    import pyroamz
-    client = pyroamz.create()
+    import pybroadcast
+    client = pybroadcast.create()
 
 
 ## Tests
 
-The data api needs to be running for the tests to run. Then call:
+The broadcast api needs to be running for the tests to succeed. Then call:
 
     make test
