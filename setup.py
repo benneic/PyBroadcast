@@ -6,9 +6,12 @@ try:
 except ImportError:
     from distutils.core import setup
 
+import pybroadcast
+version = str(pybroadcast.__version__)
+
 setup(
     name='pybroadcast',
-    version='0.0.1',
+    version=version,
     description='Roamz Broadcast API Client',
     author='Roamz',
     author_email='support@roamz.com',

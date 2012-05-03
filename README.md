@@ -9,8 +9,8 @@ Set the environment variable `PYBROADCAST_BASE_URL`, check .env.sample for detai
 Create a PyBroadcast instance:
 
     import pybroadcast
-    client = pybroadcast.create()
-
+    broadcast = pybroadcast.create()
+    broadcast.facebook.status()
 
 ## Tests
 
